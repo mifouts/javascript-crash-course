@@ -15,5 +15,3 @@ let celsius = 10
 fahrenheit = celsius * 1.8 + 32
 
 console.log(fahrenheit)
-
-let fahrenheit = 50
