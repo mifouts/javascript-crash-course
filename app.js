@@ -53,3 +53,14 @@ else if (cash===price) {
 else {
     console.log(`not enough money - you still owe ${difference * -1} dollars`)
 }
+
+
+let groceryCash = 50
+let groceryPrice = 40
+let isStoreOpen = true
+
+if (groceryCash >= groceryPrice && isStoreOpen === true) {
+    console.log('print the receipt')
+}
+
+
