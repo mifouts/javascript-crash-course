@@ -1,6 +1,9 @@
-console.log('Hello World' [10])
-console.log('12345'.length)
-let str = 'Mitch'
-console.log(str.length)
+let fullName = 'Mitch Fouts'
 
-console.log('123')
+let isRaining = true
+let temperature = 20
+let planet = 'Earth'
+
+temperature = temperature + 2
+
+console.log(temperature)
