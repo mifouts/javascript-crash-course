@@ -74,3 +74,11 @@ let loggedInn = true
 let str = subscribedd && loggedInn ? 'show the video' : 'hide the video'
 console.log(str);
 
+let cashh = 45
+let pricee = 40
+let isStoreOpenn = true
+
+
+isStoreOpenn && cashh >= pricee ? console.log('give receipt') : console.log('do not give receipt')
+
+isStoreOpenn && cashh <= pricee ? console.log('do not give receipt') : console.log('give receipt')
