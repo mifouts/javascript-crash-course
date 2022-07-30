@@ -64,3 +64,13 @@ if (groceryCash >= groceryPrice && isStoreOpen === true) {
 }
 
 
+let hot = true 
+
+hot ? console.log('weather is hot outside') : console.log('weather is cold')
+
+let subscribedd = true
+let loggedInn = true
+
+let str = subscribedd && loggedInn ? 'show the video' : 'hide the video'
+console.log(str);
+
