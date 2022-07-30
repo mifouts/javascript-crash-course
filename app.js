@@ -82,3 +82,14 @@ let isStoreOpenn = true
 isStoreOpenn && cashh >= pricee ? console.log('give receipt') : console.log('do not give receipt')
 
 isStoreOpenn && cashh <= pricee ? console.log('do not give receipt') : console.log('give receipt')
+
+
+// DRY = dont repeat yourself
+let count = 1;
+
+
+while (count <= 100) {
+    console.log(count)
+    count = count + 1
+}
+
