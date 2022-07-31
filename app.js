@@ -71,8 +71,8 @@ hot ? console.log('weather is hot outside') : console.log('weather is cold')
 let subscribedd = true
 let loggedInn = true
 
-let str = subscribedd && loggedInn ? 'show the video' : 'hide the video'
-console.log(str);
+//let str = subscribedd && loggedInn ? 'show the video' : 'hide the video'
+//console.log(str);
 
 let cashh = 45
 let pricee = 40
@@ -114,4 +114,9 @@ for (let i = 1; i <= 20; i++) {
    else {
     console.log(`${i} -> ${i}`)
    }
+}
+
+let str = 'Frontend Simplified'
+for (i = 0; i < str.length; i++) {
+    console.log(str[i])
 }
