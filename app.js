@@ -97,6 +97,8 @@ isStoreOpenn && cashh <= pricee ? console.log('do not give receipt') : console.l
   //  console.log(i)
 //}
 
+
+// Interview Question!! printing things to console with certain perameters
 for (let i = 1; i <= 20; i++) {
 
     if (i % 3 === 0 && i % 5 === 0) {
@@ -116,7 +118,24 @@ for (let i = 1; i <= 20; i++) {
    }
 }
 
+
+// Print every character in a string 
+
 let str = 'Frontend Simplified'
 for (i = 0; i < str.length; i++) {
     console.log(str[i])
 }
+
+
+// FUNCTIONS
+
+// function definition
+function welcomePersonToFES (name) {
+    console.log(`Welcome to Frontend Simplified, ${name}`)
+    
+}
+
+// call function
+welcomePersonToFES('Mitch');
+welcomePersonToFES('Zen');
+welcomePersonToFES('Mitri');
