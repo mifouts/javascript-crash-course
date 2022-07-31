@@ -139,3 +139,21 @@ function welcomePersonToFES (name) {
 welcomePersonToFES('Mitch');
 welcomePersonToFES('Zen');
 welcomePersonToFES('Mitri');
+
+
+function sumOfTwoNumbers (num1, num2) {
+    return num1 + num2
+}
+
+    console.log(sumOfTwoNumbers (10, 10));
+
+
+//function convertCelsiusToFahrenheit (celsius) {
+  //  let fahrenheit = celsius * 1.8 + 32
+    //return fahrenheit
+//}
+
+const convertCelsiusToFahrenheit = (celsius) => {
+    return celsius * 1.8 + 32
+}
+console.log(convertCelsiusToFahrenheit(0))
