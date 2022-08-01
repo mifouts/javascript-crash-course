@@ -196,10 +196,19 @@ console.log(convertCelsiusToFahrenheit(0))
 
 let dollars = [1, 5, 10, 3]
 
+let cents = [];
+
+for (let i = 0; i < dollars.length; ++i){
+    cents.push(dollars[i] * 100)
+} 
+
+console.log(cents)
+
+
 //let newARR = dollars.map((element) => {
  //   console.log(element)
   //  return element * 100
 //})
 
-let newARR = dollars.map(element => element * 100)
-console.log(newARR)
+//let cents = dollars.map(element => element * 100)
+//console.log(cents)
