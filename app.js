@@ -157,3 +157,15 @@ const convertCelsiusToFahrenheit = (celsius) => {
     return celsius * 1.8 + 32
 }
 console.log(convertCelsiusToFahrenheit(0))
+
+
+// ARRAYS 
+
+
+let arr = [20, 30, 40, 50, 100]
+
+// first element of array
+console.log(arr[0])
+
+//last element of array
+console.log(arr[arr.length - 1])
