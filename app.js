@@ -180,16 +180,26 @@ console.log(convertCelsiusToFahrenheit(0))
 
 //console.log(arr)
 
-let grades = ['A+', 'A', 'FAIL']
+//let grades = ['A+', 'A', 'FAIL']
 
-let goodGrades = []
+//let goodGrades = []
 
-for (let i = 0; i < grades.length; ++i){
-    if (grades[i] !== 'FAIL'){
-        goodGrades.push(grades[i])
-    }
-    console.log(grades[i]);
+//for (let i = 0; i < grades.length; ++i){
+    //if (grades[i] !== 'FAIL'){
+      //  goodGrades.push(grades[i])
+    //}
+  //  console.log(grades[i]);
 
-}
+//}
 
-console.log(goodGrades)
+//console.log(goodGrades)
+
+let dollars = [1, 5, 10, 3]
+
+//let newARR = dollars.map((element) => {
+ //   console.log(element)
+  //  return element * 100
+//})
+
+let newARR = dollars.map(element => element * 100)
+console.log(newARR)
