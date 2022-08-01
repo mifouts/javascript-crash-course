@@ -162,10 +162,26 @@ console.log(convertCelsiusToFahrenheit(0))
 // ARRAYS 
 
 
-let arr = [20, 30, 40, 50, 100]
+//let arr = [20, 30, 40, 50, 100]
 
 // first element of array
-console.log(arr[0])
+//console.log(arr[0])
 
-//last element of array
-console.log(arr[arr.length - 1])
+// last element of array
+//console.log(arr[arr.length - 1])
+
+// add element onto end of array
+//arr.push(200)
+
+// [20, 30, 40, 50, 100]
+//let newARR = arr.filter(element => element < 50)
+
+//console.log(newARR)
+
+//console.log(arr)
+
+let grades = ['A+', 'A', 'FAIL']
+
+let goodGrades = grades.filter(element => element !== 'FAIL')
+
+console.log(goodGrades)
