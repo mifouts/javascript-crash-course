@@ -279,8 +279,30 @@ console.log(users)
 
 
 // first way
-console.log(document.querySelector('#title'))
+//console.log(document.querySelector('#title'))
 
 
 // second way
-console.log(document.getElementById('title'))
+//console.log(document.getElementById('title'))
+
+
+// change html
+document.querySelector('#title').innerHTML += 'Frontend Simplified'
+
+// change css
+document.querySelector('#title').fontSize = '16px'
+
+
+
+//function changeTitleToRed() {
+    //document.querySelector('#title').style.color = 'red'
+   // console.log('clicked')
+//}
+
+function toggleDarkMode(){
+    document.querySelector('body').classList.toggle("dark-theme");
+}
+
+
+
+
