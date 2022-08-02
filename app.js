@@ -220,15 +220,38 @@ console.log(cents)
 let users = [{
     username: 'Mitch',
     email: 'mitch@frontendsimplified.com',
+    password: 'test123',
     subscriptionStatus: 'VIP',
     discordId: 'Mitch Fouts#0001',
     lessonsCompleted: [0, 1]
 }, {
     username: 'Mitri',
     email: 'mitri@frontendsimplified.com',
+    password: 'test1234',
     subscriptionStatus: 'VIP',
     discordId: 'Mitri#0001',
     lessonsCompleted: [0, 1, 2, 3]
-}]
+}, {
+    username: 'Zen',
+    email: 'zen@frontendsimplified.com',
+    password: 'test12345',
+    subscriptionStatus: 'VIP',
+    discordId: 'Mitri#0001',
+    lessonsCompleted: [0, 1, 2, 3]
+}];
 
-console.log(users[0])
+function login(email, password){
+    for (let i = 0; i < users.length; ++i){
+
+    if (users[i].email === email){
+        console.log([i]);
+        if (users[i].password === password){
+            console.log('log the user in - the details are correct')
+
+        }
+    }
+    }
+}
+
+login('mitch@frontendsimplified.com', 'test123');
+
