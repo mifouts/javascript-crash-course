@@ -274,3 +274,13 @@ register({
 
 console.log(users)
 
+
+// document object model
+
+
+// first way
+console.log(document.querySelector('#title'))
+
+
+// second way
+console.log(document.getElementById('title'))
