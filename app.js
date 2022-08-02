@@ -247,11 +247,15 @@ function login(email, password){
         console.log([i]);
         if (users[i].password === password){
             console.log('log the user in - the details are correct')
-
         }
+        else {
+            console.log('password is incorrect - try again')
+        }
+        return;
     }
     }
+    console.log('could not find an email that matches')
 }
 
-login('mitch@frontendsimplified.com', 'test123');
+login('mit@frontendsimplified.com', 'wrongpassword');
 
