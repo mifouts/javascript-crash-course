@@ -240,22 +240,37 @@ let users = [{
     lessonsCompleted: [0, 1, 2, 3]
 }];
 
-function login(email, password){
-    for (let i = 0; i < users.length; ++i){
+//function login(email, password){
+    //for (let i = 0; i < users.length; ++i){
 
-    if (users[i].email === email){
-        console.log([i]);
-        if (users[i].password === password){
-            console.log('log the user in - the details are correct')
-        }
-        else {
-            console.log('password is incorrect - try again')
-        }
-        return;
-    }
-    }
-    console.log('could not find an email that matches')
+    //if (users[i].email === email){
+      //  console.log([i]);
+        //if (users[i].password === password){
+          //  console.log('log the user in - the details are correct')
+        //}
+        //else {
+          //  console.log('password is incorrect - try again')
+        //}
+        //return;
+    //}
+    //}
+    //console.log('could not find an email that matches')
+//}
+
+//login('mit@frontendsimplified.com', 'wrongpassword');
+
+
+function register(user){
+    users.push(user);
 }
 
-login('mit@frontendsimplified.com', 'wrongpassword');
+register({
+    username: 'zen', 
+    email: 'mitch@frontendsimplified.com', 
+    password: 'mitch123', 
+    subscriptionStatus: 'VIP', 
+    discordId: 'Mitch#001', 
+    lessonsCompleted: [0, 1]})
+
+console.log(users)
 
